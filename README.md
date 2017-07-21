@@ -8,7 +8,7 @@ The Capacitated Vehicle Routing Problem is to find an efficient solution to deli
 The objective is to solve the vehicle routing problem to get the shortest distance between 249 customers and 1 depot travelling around by the trucks. Each truck is starting from the depot in the beginning and has 500 capacities on each routine and they cannot visit the same customer twice because it is inefficient repeating location.
 
 Original map:
-![image](https://github.com/yiuli2390/Autonomous-System/blob/master/Assets/original%20map.png =250x250)
+![image](https://github.com/yiuli2390/Autonomous-System/blob/master/Assets/original%20map.png)
 
 My best solution map:
 ![image](https://github.com/yiuli2390/Autonomous-System/blob/master/Assets/Best%20solution%20map.png)
