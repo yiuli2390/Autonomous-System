@@ -12,9 +12,9 @@ Hillclimb is a method of local search that use to optimize problems. The concept
 Simulation annealing
 
 #### Steps
-1.	First compute the original route from 1-249 to initialize the first value and to compare the next fitness value.
-2.	Randomly pick two numbers from between 1-249 customers and swap them around.
-3.	Compute the new route after switched.
-4.	Compare the current new route to the previous route.
-5.	If the current route distance is less than the previous which means it is fittest and use that route.
-6.	Repeat step 1.
+1. First compute the original route from 1-249 to initialize the first value and to compare the next fitness value.
+2. Randomly pick two numbers from between 1-249 customers and swap them around.
+3. Compute the new route after switched.
+4. Compare the current new route to the previous route.
+5. If the current route distance is less than the previous which means it is fittest and use that route.
+6. Repeat step 1.
