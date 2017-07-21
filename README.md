@@ -6,3 +6,15 @@ The Capacitated Vehicle Routing Problem is to find an efficient solution to deli
 
 ### Objective
 The objective is to solve the vehicle routing problem to get the shortest distance between 249 customers and 1 depot travelling around by the trucks. Each truck is starting from the depot in the beginning and has 500 capacities on each routine and they cannot visit the same customer twice because it is inefficient repeating location.
+
+### Hillclimb
+Hillclimb is a method of local search that use to optimize problems. The concept is to find a better solution to a problem within the neighbourhood from the start at the base of a hill, and then repeatedly improve
+Simulation annealing
+
+####Steps
+1.	First compute the original route from 1-249 to initialize the first value and to compare the next fitness value.
+2.	Randomly pick two numbers from between 1-249 customers and swap them around.
+3.	Compute the new route after switched.
+4.	Compare the current new route to the previous route.
+5.	If the current route distance is less than the previous which means it is fittest and use that route.
+6.	Repeat step 1.
